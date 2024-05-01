@@ -1,0 +1,62 @@
+---
+title: "GOVT2901</br>Contemporary Issues in Political Science and International Relations"
+subtitle: "Week 11</br>Artificial Intelligence"
+author: "Francesco Bailo"
+institute: "The University of Sydney"
+date: "Semester 1, 2024 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: ["default", "assets/sydney-fonts.css", "assets/sydney.css"]
+    self_contained: false # if true, fonts will be stored locally
+    seal: true # show a title slide with YAML information
+    includes:
+      in_header: "assets/mathjax-equation-numbers.html"
+    nature:
+      beforeInit: ["assets/remark-zoom.js", "https://platform.twitter.com/widgets.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '4:3' # alternatives '16:9' or '4:3' or others e.g. 13:9
+      navigation:
+        scroll: false # disable slide transitions by scrolling
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/en/6/6a/Logo_of_the_University_of_Sydney.svg)
+background-size: 95%
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, 
+                      dev = 'svg', out.width = "45%", fig.width = 6,
+                      fig.align="center")
+
+```
+
+---
+
+## Acknowledgement of Country
+
+I would like to acknowledge the Traditional Owners of Australia and  recognise their continuing connection to land, water and culture. The  University of Sydney is located on the land of the Gadigal people  of the Eora Nation. I pay my respects to their Elders, past and present.
+
+---
+
+## Who am I?
+	
+Francesco Bailo (francesco.bailo@sydney.edu.au)
+
+I am a Lecturer in the School of Social and Political Sciences, University of Sydney. I am interested in researching forms of political engagement and political talk on social media. I researched the emergence and dynamics of online communities, the role between news organisations and social media, and the interdependence between social media activists and news organisations. I have engaged with and applied quantitative research methods developing expertise in quantitative text analysis (NLP) and network analysis.
+
+This year I am also teaching GOVT6139, SSPS4102 & SSPS6006.
+
+---
+
+# Outline
+
+* What is AI?
+* What might AI threaten? 
+* The singularity and the alignment / control problem.
+* The degradation of humanity.
+* AI and traditional security concerns.
+
+
