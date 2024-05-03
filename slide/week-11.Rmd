@@ -61,10 +61,99 @@ This year I am also teaching GOVT6139, SSPS4102 & SSPS6006.
 
 ---
 
+class: segue-red
+
+# What is AI?
+
+
 ---
 
+- We don't have a shared definition of what artificial intelligence (AI) is or what it should like when we see it.
 
-To begin… What might AI threaten?
+- Yet, this is not that surprisingly if we think that we don't even have a shared definition of what human intelligence (HI) is.
+
+.center[<img src = "../img/artificial-intelligence.webp" width = "35%"></img>]
+
+---
+
+#### The field of "Artificial Intelligence" was created during a workshop at  Dartmouth College in 1956. The proposal for the workshop reads
+
+> "We propose that a 2-month, 10-man study of **artificial intelligence** be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence *can in principle be so precisely described* that a machine can be made to simulate it. An attempt will be made to find **how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves**".
+
+.center[<img src = "../img/artificial-intelligence.webp" width = "15%"></img>]
+
+
+
+---
+
+But AI researchers got stuck on this:
+
+> every aspect of learning or any other feature of intelligence can in principle be **so precisely described that a machine can be made to simulate it**.
+
+.center[<img src = "../img/symbolic-ai.webp" width = "25%"></img>]
+
+... well, after all it is not that simple to "precisely describe" learning or intelligence. It can't be easily break down to discrete steps and rules that a machine could execute.
+
+
+---
+
+## Symbolic vs Subsymbolic AI
+
+The initial approach to reach AI by flashing out explicit rules is called **symbolic AI**.
+
+> "**Symbolic AI** was originally inspired by mathematical logic as well as by the way people described their conscious thought processes"<sup>1</sup>
+
+.center[<img src = "../img/symbolic-vs-subsymbolic-ai.webp" width = "20%"></img>]
+
+> "In contrast, **subsymbolic** approaches to AI took “inspiration from neuroscience and sought to capture the sometimes-unconscious thought processes"<sup>1</sup>
+
+
+.footnote[[1] Mitchell, M. (2019). Artificial intelligence: A guide for thinking humans. Macmillan.]
+---
+
+## From Subsymbolic AI to Multilayer neural networks
+
+.center[<img src = "../img/two-layer-network.png" width = "35%"></img>]
+
+> "a multilayer neural network can learn to use its hidden units to recognize more abstract features (for example, visual shapes, such as the top and bottom 'circles' on a handwritten 8) than the simple features (for example, pixels) encoded by the input"<sup>1</sup>
+
+.footnote[[1] Mitchell, M. (2019). Artificial intelligence: A guide for thinking humans. Macmillan.]
+
+---
+
+## Symbolic vs Subsymbolic AI
+
+- Artificial Intelligence applications really took off thanks to the intuition of **Subsymbolic AI** researchers that rule-based intelligent systems are practical only in some situation.
+
+.center[<img src = "../img/symbolic-vs-subsymbolic-ai.webp" width = "25%"></img>]
+
+- In most situations, it is definitely more practical to let systems find relevant patterns autonomously (as in neural networks) with limited or no human intervention.  
+
+Of course, this intuition wouldn't be enough without an explosion in data production.
+
+---
+
+## The Data Explosion and the Ascent of Machine Learning 
+
+.center[<img src = "../img/data-explosion.webp" width = "35%"></img>]
+
+---
+
+# Concepts in AI
+
+_‘Narrow’ AI versus ‘Artificial General Intelligence’ (AGI) versus ‘Artificial Superintelligence’ (ASI)_
+
+Narrow AI = good at a specified problem (chess, facial recognition, self-driving) – includes GPT4
+
+AGI = Good at multiple tasks. And: ‘…the ability to explain their [the AGI’s] results, reason abstractly, and learn in a less data-intensive and more human-like way’ (Torres 2019). And: ‘Whereas past technologies have been tools used by humans, AGI would constitute an agent in its own right.’
+
+ASI = ‘An artificial superintelligence is a system that could significantly outperform every possible human in all cognitive domains.’
+
+---
+
+class: segue-red
+
+# To begin… What might AI threaten?
 
 
 ---
@@ -131,25 +220,6 @@ https://thebulletin.org/about-us/
 ---
 
 
-
----
-
-
-Concepts in AI
-
-
----
-
-
-# Concepts in AI
-
-_‘Narrow’ AI versus ‘Artificial General Intelligence’ (AGI) versus ‘Artificial Superintelligence’ (ASI)_
-
-Narrow AI = good at a specified problem (chess, facial recognition, self-driving) – includes GPT4
-
-AGI = Good at multiple tasks. And: ‘…the ability to explain their [the AGI’s] results, reason abstractly, and learn in a less data-intensive and more human-like way’ (Torres 2019). And: ‘Whereas past technologies have been tools used by humans, AGI would constitute an agent in its own right.’
-
-ASI = ‘An artificial superintelligence is a system that could significantly outperform every possible human in all cognitive domains.’
 
 
 ---
