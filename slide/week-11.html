@@ -3,7 +3,7 @@
   <head>
     <title>GOVT2901Contemporary Issues in Political Science and International Relations</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Francesco Bailo" />
+    <meta name="author" content="Francesco Bailo (from slides prepared by Jamie Roberts)" />
     <script src="week-11_files/header-attrs-2.25/header-attrs.js"></script>
     <link href="week-11_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <script type="text/x-mathjax-config">
@@ -32,13 +32,13 @@ class: center, middle, inverse, title-slide
 ## Week 11</br>Artificial Intelligence
 ]
 .author[
-### Francesco Bailo
+### Francesco Bailo (from slides prepared by Jamie Roberts)
 ]
 .institute[
 ### The University of Sydney
 ]
 .date[
-### Semester 1, 2024 (updated: 2024-05-03)
+### Semester 1, 2024 (updated: 2024-05-06)
 ]
 
 ---
@@ -149,28 +149,109 @@ Of course, this intuition wouldn't be enough without an explosion in data produc
 
 ---
 
-## The Data Explosion and the Ascent of Machine Learning 
+## The Data Explosion 
 
-.center[&lt;img src = "../img/data-explosion.webp" width = "35%"&gt;&lt;/img&gt;]
+### And the Ascent of Tech Industry Applications for Machine Learning 
+
+.center[&lt;img src = "../img/data-explosion.webp" width = "25%"&gt;&lt;/img&gt;]
+
+* The last "**AI winter**"&lt;sup&gt;1&lt;/sup&gt; ended in early 2000s. 
+
+* The current **AI Spring** was made possible by data availability, mostly produced by the Internet and for the Internet.
+
+.center[.content-box-yellow[Data transformed the value of technologies that had been around for decades.]]
+
+.footnote[[1]Low interest and low funding towards AI applications from industry and governments]
 
 ---
 
-# Concepts in AI
+## ImageNet and the Wow Moment for Neural Networks
 
-_‘Narrow’ AI versus ‘Artificial General Intelligence’ (AGI) versus ‘Artificial Superintelligence’ (ASI)_
+* ImageNet is a database of labelled images networked through categories.
 
-Narrow AI = good at a specified problem (chess, facial recognition, self-driving) – includes GPT4
+.pull-left[
 
-AGI = Good at multiple tasks. And: ‘…the ability to explain their [the AGI’s] results, reason abstractly, and learn in a less data-intensive and more human-like way’ (Torres 2019). And: ‘Whereas past technologies have been tools used by humans, AGI would constitute an agent in its own right.’
+* Images are collected from the *Internet*;
+  
+* Images are annotated by human-coders crowd sourced through the *Internet* (using Amazon Mechanical Turk).
 
-ASI = ‘An artificial superintelligence is a system that could significantly outperform every possible human in all cognitive domains.’
+* It was presented by Fei-Fei Li and team in **2009**
+
+* In **2010**, ImageNet is used in a challange to assess accuracy of competing algorithms for image classification.  
+
+* In **2012**, *AlexNet* a neural network algorithm outperforms all other competing algorithms, *by far*. 
+
+]
+
+.pull-right[
+.center[&lt;img src = "https://upload.wikimedia.org/wikipedia/commons/4/4f/ImageNet_error_rate_history_%28just_systems%29.svg" width = "80%"&gt;&lt;/img&gt;]
+]
+
+---
+
+## Neural Networks and the New Data-driven AI Spring  
+
+* AlexNet is a convolutional neural network (CNN). 
+
+* CNN algorithms were "*ancient technology*" in **2012**. 
+
+* CNNs were first applied to image classification in **1989**.
+
+.center[.content-box-green[But in 2012, CNNs would meet data. A lot of data. This was the breakthrough.]] 
+
+Because of this we can't disentangle current AI advances from advances in data collection and processing.
+
+The winning mix that defines the field of competition is 
+
+.content-box-yellow[
+$$ Algorithms \times Computation \times Data $$
+]
+
+* Computation (i.e., energy and CPUs/GPUs) is the critical interface between algorithms and data.
+
+* Computation and Data are limited resources (algorithms, of course, are not). On computation and data the battle for market and geopolitical dominance is fought and won (or lost).
+
+---
+
+## AI: Narrow and General, Weak and Strong
+
+Recent advances allowed by deep learning techniques - Large Language Models (LLMs) and other generative AIs are all downstream computer innovations made possible by deep learning technologies - have renewed the debate about AI converging on and eventually overcoming HI (i.e., human intellingence).   
+
+* **Narrow** (or **Weak**) AI refers to single-task systems. These systems, such as AlphaGo or ChatGPT, are good (exceptionally and super-humanly good) at one task - but can't really "think" outside of their pre-assigned and pre-designed box.   
+
+* Artificial **General** Intelligence (AGI), is instead a movie-like AI, which can do whatever humans do. AGI should demonstrate "...the ability to explain their results, reason abstractly, and learn in a less data-intensive and more human-like way" (Torres 2019). "Whereas past technologies have been tools used by humans, AGI would constitute an agent in its own right."
+
+* "**Artificial Super Intelligence** (ASI) is a system that could significantly outperform every possible human in all cognitive domains."
+
+---
+
+## But could machine think?
+
+- We don't know! 
+
+#### Would we know if they began thinking?
+
+- We also don't know!
+
+#### So what is AGI supposed to look like? 
+
+- We have no idea.
+
+#### What we seem to agree on is that machines are still not there yet.
+
+.content-box-green[
+
+.center[&lt;large&gt;What we don't agree on is whether machines will ever be there.&lt;/large&gt;]
+
+]
+
+(Of course AI entrepreneurs - who are always active on the *capital* market - instead tend to agree that we will be there sooner than later...)
 
 ---
 
 class: segue-red
 
-# To begin… What might AI threaten?
-
+# Still, what might AI threaten?
 
 ---
 
@@ -179,20 +260,21 @@ class: segue-red
 
 * Meta question: So, within the realm of International Security, what referent objects could we be concerned with when talking about Artificial Intelligence?
 * Some answers (and more questions):
-* The state
+* The **state**
   * Q: What are the threats to the state?
   * Q: Are threats to the state the main concern?
-* The existence of all humanity
-  * Q: How might AI threaten the existence of all humanity?
-* The nature of humanity as we know it?
+* The **nature of humanity** as we know it?
   * Q: Will AI diminish or augment our humanity?
   * Q: Big philosophical question: is there an ‘essential’ humanity that ought to be secured? (Might augmenting our humanity be a threat to our humanity?)
+* The **existence of all humanity** (Bostrom's existential threat scenario)
+  * Q: How might AI threaten the existence of all humanity?
+
 
 
 ---
+class: segue-red
 
-
-The Doomsday Clock
+# The Doomsday Clock
 
 
 ---
@@ -202,62 +284,44 @@ The Doomsday Clock
 
 Question: Do you know  _The Bulletin of the Atomic Scientists?_
 
-‘The Bulletin’s website, iconic Doomsday Clock, and regular events help advance actionable ideas at a time when  __technology is outpacing our ability to control it__ . The Bulletin focuses on three main areas: nuclear risk, climate change, and disruptive technologies.  __What connects these topics is a driving belief that because humans created them, we can control them__ .’
+&gt; "The Bulletin’s website, iconic Doomsday Clock, and regular events help advance actionable ideas at a time when  __technology is outpacing our ability to control it__".
 
-Question: Is technology outpacing our ability to control it?
+Four key areas: 
 
-Question: What do you think about the three security threats listed? Are they the ‘big three’ at the moment?
+* nuclear risk, 
+* climate change,
+* biological threats (accidental and deliberate misuse of biotech - AI could of course accelerate discoveries);
+* disruptive technologies (such as AI).  
 
-Question: Which is the greatest threat?
-
-(And then there is Elon: ‘Worth reading Superintelligence by Bostrom. We need to be super careful with AI. Potentially more dangerous than nukes.’)
-
----
-
-https://thebulletin.org/about-us/
-
+&gt; "What connects these topics is a driving belief that because humans created them, __we can control them__ ."
 
 ---
 
+# A few question
 
-# The Doomsday Clock
+.pull-left[
+* Question: Is technology *outpacing* our ability to control it?
 
-Question: Who knows about the Doomsday Clock?
+* Question: What do you think about the three security threats listed? Are they the ‘big three’ (nuclear, climate, bio, disruptive tech) at the moment?
 
-Question: What’s it currently set at?
+* Question: Which is the greatest threat?
+]
 
-Question: Do you agree with the settings?
+.pull-right[
+.center[&lt;img src = 'https://pictures.abebooks.com/isbn/9780066620817-us.jpg' width = "60%"&gt;&lt;/img&gt;]
+]
 
 ---
+class: segue-red
 
-https://thebulletin.org/about-us/
-
-
----
-
-
+# Part 1: The Singularity
 
 
 ---
 
+class: segue
 
-Part 1: The Singularity
-
-
----
-
-
-# (NB: Many of the AI people appear on Lex Fridman)
-
-Also Bostrom, but the link won’t embed for some reason!
-
-https://youtu.be/rfKiTGj-zeQ?si=I4MoryFvBHQTn4s0
-
-
----
-
-
-A history of the concept of ‘The Singularity’
+# A Brief history of the concept of 'The Singularity'
 
 
 ---
@@ -265,62 +329,68 @@ A history of the concept of ‘The Singularity’
 
 # Ulam and Von Neumann
 
-1957: Stanislaw Ulam on John Von Neumann
+1957: **Stanislaw Ulam** on **John Von Neumann**&lt;sup&gt;1&lt;/sup&gt;
 
-(Q: Who are these two figures?)
+&gt; "One conversation [with Von Neumann] centered on the ever accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential *singularity* in the history of the race beyond which human affairs, as we know them, could not continue."
 
-‘One conversation [with Von Neumann] centered on the ever accelerating progress of technology and changes in the mode of human life, which gives the appearance of approaching some essential singularity in the history of the race beyond which human affairs, as we know them, could not continue.’
+Question: What does it mean: "human affairs, as we know them, could not continue"? Ought we to secure human affairs as we know them? Would a radical change be a security threat?
 
-1984: Gibson:  _Neuromancer _
-
-Question: What does it mean: ‘human affairs, as we know them, could not continue’? Ought we to secure human affairs as we know them? Would a radical change be a security threat?
-
+.footnote[They were both mathematicians, nuclear physicists and computer scientists. They were also both part of the Manhattan Project to develop the first nuclear weapon during WWII.]
 
 ---
 
 
-# Vernor Vinge: 2023: the singularity
+# Vernor Vinge&lt;sup&gt;1&lt;/sup&gt; predicts the singularity in 2023 
 
-1993: Vernor Vinge: The coming technological singularity
+in his *The coming technological singularity* published in 1993.
 
-(Q: Vinge for the win?)
+&gt; Within thirty years, we will have the technological means to create superhuman intelligence. Shortly after, the human era will be ended."
 
-‘Within thirty years, we will have the technological means to create superhuman intelligence. Shortly after, the human era will be ended.’
-
-Question: How close are we to superhuman intelligence? Consider GPT4.
-
-Question:
-
+.footnote[[1] Mathematician, computer scientist and science fiction writer.]
 
 ---
 
 # Vernor Vinge: a beautiful description of our approach to the singularity
 
-‘When greater-than-human intelligence drives progress, that  __progress will be much more rapid__ . In fact, there seems no reason why progress itself would not involve the creation of still more intelligent entities -- on a still-shorter time scale. The best analogy that I see is with the evolutionary past: Animals can adapt to problems and make inventions, but often  __no faster than natural selection can do its work__  --  __the world acts as its own simulator in the case of natural selection__ . We humans have the ability to  __internalize the world and conduct "what if's" in our heads__ ; we can solve many problems thousands of times faster than natural selection. Now, by creating the means to execute those simulations at much higher speeds, we are entering a regime as radically different from our human past as we humans are from the lower animals.’
+&gt; "When greater-than-human intelligence drives progress, that  __progress will be much more rapid__ . In fact, there seems no reason why progress itself would not involve the creation of still more intelligent entities -- on a still-shorter time scale. The best analogy that I see is with the evolutionary past: Animals can adapt to problems and make inventions, but often  __no faster than natural selection can do its work__  --  __the world acts as its own simulator in the case of natural selection__ . 
+
+&gt; We humans have the ability to  __internalize the world and conduct "what if's" in our heads__ ; we can solve many problems thousands of times faster than natural selection. 
+
+&gt; Now, by creating the means to execute those simulations at much higher speeds, we are entering a regime as radically different from our human past as we humans are from the lower animals."
 
 ---
 
-The stages of adaptation
+## The stages of adaptation
 
-Natural selection (very slow – millions of years)
+* Natural selection (very slow – millions of years)
 
-Technological innovation driven by human imagination (increasingly fast – from thousands of years to single years and less)
+* Technological innovation driven by human imagination (increasingly fast – from thousands of years to single years and less)
 
-Using AI to execute simulations (once it begins… woosh)
+* Using AI to execute simulations (once it begins, intelligence will grow *exponentially*)
 
+Key to understand the singularity event, is the idea of **exponential growth**, which is difficult to grasp as all non-linear processes. Think about the weekly spread of the COVID-19 infection across a population or the chessboard problem.&lt;sup&gt;1&lt;/sup&gt;  
+
+.footnote[[1] "On the 64th square of the chessboard alone, there would be 2^63 = 9,223,372,036,854,775,808 grains, more than two billion times as many as on the first half of the chessboard."]
+
+.pull-left[.center[&lt;img src = 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Wheat_and_chessboard_problem.jpg' width = "50%"&gt;&lt;/img&gt;]]
+
+.pull-right[.center[&lt;img src = 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Wheat_Chessboard_with_line.svg' width = "50%"&gt;&lt;/img&gt;]]
+
+---
+
+# Vernor Vinge: framing the singularity in terms of security
+
+&gt; "From the human point of view this change will be a  __throwing away of all the previous rules__ , perhaps in the blink of an eye, an exponential runaway beyond any hope of control. Developments that before were thought might only happen in 'a million years' (if ever) will likely happen in the next century..." 
+
+&gt; "I think it's fair to call this event a singularity ('the Singularity' for the purposes of this paper). It is a point where our models must be discarded and a new reality rules."
+
+&gt; "__As we move closer and closer to this point, it will loom vaster and vaster over human affairs till the notion becomes a commonplace__ . Yet when it finally happens it may still be a great surprise and a greater unknown."
+
+.content-box-yellow[As with Von Neumann, some sort of dramatic but vague events.]
 
 ---
 
-
-
----
-
-
-# Vernor Vinge: helping us conceptualise security
-
-‘From the human point of view this change will be a  __throwing away of all the previous rules__ , perhaps in the blink of an eye, an exponential runaway beyond any hope of control. Developments that before were thought might only happen in "a million years" (if ever) will likely happen in the next century… I think it's fair to call this event a singularity ("the Singularity" for the purposes of this paper). It is a point where our models must be discarded and a new reality rules.  __As we move closer and closer to this point, it will loom vaster and vaster over human affairs till the notion becomes a commonplace__ . Yet when it finally happens it may still be a great surprise and a greater unknown.’
-
----
+## A few questions
 
 Question: Is it a security concern that all of the previous rules will be thrown away? Does security come from having rules / models / schemas?
 
@@ -334,27 +404,55 @@ Question: Does security depend upon human’s controlling change?
 
 # Machine Intelligence Research Institute
 
-2005 Eliezer Yudkowsky founds the Machine Intelligence Research Institute (Yudkowsky has become a singularity Doomer)
+2005: Eliezer Yudkowsky&lt;sup&gt;1&lt;/sup&gt; founds the Machine Intelligence Research Institute (Yudkowsky has become a singularity Doomer)
 
-‘The [AI](https://en.wikiquote.org/wiki/Artificial_intelligence) does not hate you, nor does it love you, but you are made out of atoms which it can use for something else.’
+&gt; "The AIoes not hate you, nor does it love you, but you are made out of atoms which it can use for something else."
 
-
+.footnote[[1] Artificial intelligence researcher]
 ---
 
 
 # Kurzweil: The anti Doomer: no security threat
 
-2005: Ray Kurzweil:  _The Singularity Is Near: When Humans Transcend Biology_
+2005: Ray Kurzweil:&lt;sup&gt;1&lt;/sup&gt;  _The Singularity Is Near: When Humans Transcend Biology_
 
-Kurzweil: evolution moves towards ‘greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love’.
+Kurzweil: evolution moves towards "greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love".
 
-Question: What are your thoughts about this teleological account? Note that it paints the singularity as not being a security threat – in the deepest sense of ‘security’ I suppose.
+Question: What are your thoughts about this teleological account? Note that he paints the singularity as not being a security threat – in the deepest sense of ‘security’.
 
 Question: Ought we to look forward to the transformations brought about by the singularity?
 
+.footnote[[1] Computer scientist.]
+
 ---
 
-Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.
+# Kurzweil's wild singularity
+
+&gt; "a future period during which the pace of technological change will be so rapid, its impact so deep, that human life will be irreversibly transformed"
+
+&gt; "a unique event with ... singular implications"
+
+&gt; "an event capable of rupturing the fabric of human history."
+
+&gt; By the 2020s molecular assembly will provide tools to effectively combat poverty, clean up our environment, overcome disease, [and] extend human longevity.&lt;sup&gt;1&lt;/sup&gt;
+
+.footnote[[1]Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.]
+
+---
+
+# Kurzweil's wild singularity (continued)
+
+&gt; By the end of the 2030s … brain implants based on massively distributed intelligent nanobots will greatly expand our memories and otherwise vastly improve all our sensory, pattern-recognition, and cognitive abilities.
+
+&gt; Uploading a human brain means scanning all of its salient details and then reinstantiating those details into a suitably powerful computational substrate. The end of the 2030s is a conservative projection for successful [brain] uploading.
+
+&gt; A computer will pass the Turing test by 2029.
+
+&gt; As we get to the 2030s, artificial consciousness will be very realistic. That’s what it means to pass the Turing test.
+
+&gt; I set the date for the Singularity … as 2045. The nonbiological intelligence created in that year will be one billion times more powerful than all human intelligence today.
+
+.footnote[[1]Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.]
 
 
 ---
@@ -362,7 +460,7 @@ Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.
 
 # Bostrom’s Superintelligence – not upbeat
 
-2014 (Musk gave Bostrom’s institute  £1m, and Tegmark’s The Future of Life Institute $10m)
+2014 (Elon Musk gave Bostrom’s institute  £1m, which shut down in 2024)
 
 Geist (2015) on Bostrom:
 
