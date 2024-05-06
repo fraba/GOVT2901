@@ -55,9 +55,10 @@ This year I am also teaching GOVT6139, SSPS4102 & SSPS6006.
 
 * What is AI?
 * What might AI threaten? 
-* The singularity and the alignment / control problem.
-* The degradation of humanity.
-* AI and traditional security concerns.
+* The singularity 
+* Problem 1: Alignment and control
+* Problem 2: The degradation of humanity.
+* Problem 3: AI and traditional security concerns.
 
 ---
 
@@ -298,7 +299,7 @@ Four key areas:
 ---
 class: segue-red
 
-# Part 1: The Singularity
+# The Singularity
 
 
 ---
@@ -390,7 +391,7 @@ Question: Does security depend upon human’s controlling change?
 
 2005: Eliezer Yudkowsky<sup>1</sup> founds the Machine Intelligence Research Institute (Yudkowsky has become a singularity Doomer)
 
-> "The AIoes not hate you, nor does it love you, but you are made out of atoms which it can use for something else."
+> "The AI does not hate you, nor does it love you, but you are made out of atoms which it can use for something else."
 
 .footnote[[1] Artificial intelligence researcher]
 ---
@@ -400,9 +401,11 @@ Question: Does security depend upon human’s controlling change?
 
 2005: Ray Kurzweil:<sup>1</sup>  _The Singularity Is Near: When Humans Transcend Biology_
 
-Kurzweil: evolution moves towards "greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love".
+Kurzweil: evolution moves towards 
 
-Question: What are your thoughts about this teleological account? Note that he paints the singularity as not being a security threat – in the deepest sense of ‘security’.
+> "greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love".
+
+Question: What are your thoughts about this *teleological* account? Note that he paints the singularity not as security threat – in the deepest sense of ‘security’.
 
 Question: Ought we to look forward to the transformations brought about by the singularity?
 
@@ -418,15 +421,17 @@ Question: Ought we to look forward to the transformations brought about by the s
 
 > "an event capable of rupturing the fabric of human history."
 
-> By the 2020s molecular assembly will provide tools to effectively combat poverty, clean up our environment, overcome disease, [and] extend human longevity.<sup>1</sup>
+> By the 2020s molecular assembly will provide tools to effectively combat poverty, clean up our environment, overcome disease, [and] extend human longevity.
 
-.footnote[[1]Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.]
+.center[<img src = "../img/singularity.webp" width = '20%'></img>]
+
+.footnote[Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.]
 
 ---
 
 # Kurzweil's wild singularity (continued)
 
-> By the end of the 2030s … brain implants based on massively distributed intelligent nanobots will greatly expand our memories and otherwise vastly improve all our sensory, pattern-recognition, and cognitive abilities.
+> By the end of the 2030s ... brain implants based on massively distributed intelligent nanobots will greatly expand our memories and otherwise vastly improve all our sensory, pattern-recognition, and cognitive abilities.
 
 > Uploading a human brain means scanning all of its salient details and then reinstantiating those details into a suitably powerful computational substrate. The end of the 2030s is a conservative projection for successful [brain] uploading.
 
@@ -434,135 +439,150 @@ Question: Ought we to look forward to the transformations brought about by the s
 
 > As we get to the 2030s, artificial consciousness will be very realistic. That’s what it means to pass the Turing test.
 
-> I set the date for the Singularity … as 2045. The nonbiological intelligence created in that year will be one billion times more powerful than all human intelligence today.
+> I set the date for the Singularity ... as 2045. The nonbiological intelligence created in that year will be one billion times more powerful than all human intelligence today.
 
-.footnote[[1]Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.]
-
-
----
-
-
-# Bostrom’s Superintelligence – not upbeat
-
-2014 (Elon Musk gave Bostrom’s institute  £1m, which shut down in 2024)
-
-Geist (2015) on Bostrom:
-
-‘Intelligent machines are “quite possibly the most important and most daunting challenge humanity has ever faced.”’
-
-Question: What do you think about this claim?
-
-And Geist again: ‘With intellectual powers beyond human comprehension, he [Bostrom] prognosticates, self-improving artificial intelligences could effortlessly enslave or destroy Homo sapiens if they so wished.’
-
-Question: Alarmism?
-
----
-
-https://thebulletin.org/2015/08/is-artificial-intelligence-really-an-existential-threat-to-humanity/#post-heading
+.footnote[Kurzweil, Ray (2005). The Singularity is Near. New York: Viking Books.]
 
 
 ---
 
+# Bostrom's Superintelligence
 
-# More of Geist’s skepticism in response to Bostrom
+Kurzweil's concept of the Singularity and Nick Bostrom's idea of Superintelligence are both speculative theories about what advances in AI will mean for us.
 
-Geist: ‘The risks of self-improving intelligent machines are grossly exaggerated and ought not serve as a distraction from the existential risks we already face…’
+**Kurzweil** is generally .red[optimistic] about the Singularity, envisioning a future where advanced AI and other technologies solve many of humanity's pressing problems, including disease, poverty, and environmental degradation. He believes that humans will merge with technology, leading to enhanced cognitive abilities and longevity.
 
-Question: Do you agree? Why might Geist be so dismissive?
-
-
----
-
-
-# Geist’s incredulity (remember: 2015)
-
-Geist: ‘Simply depriving AIs of information about the world is not adequate to render them safe, he [Bostrom] claims, as they might be able to accomplish such feats as solving extremely complex problems in physical science  __without the need to carry out real-world experiments__ . In a scenario borrowed from Yudkowsky,  __Bostrom posits that a superintelligence might “crack the protein folding problem”__  and then manipulate a gullible human into mixing mail-ordered synthesized proteins “in a specified environment” to create “a very primitive ‘wet’ nanosystem, which, ribosome-like, is capable of accepting external instructions; perhaps patterned acoustic vibrations delivered by a speaker attached to the beaker.” It could then employ this system to bootstrap increasingly sophisticated nanotechnologies, and “at a pre-set time, nanofactories producing nerve gas or target-seeking mosquito-like robots might then burgeon forth simultaneously from every square meter of the globe (although more effective ways of killing could probably be devised by a machine with the technology research superpower).” This scenario doesn't just strain a reader’s credulity; it also implies a fanciful understanding of the nature of technological development in which “genius” can somehow substitute for hard work and countless intermediate failures. In the real world, the “lone genius inventor” is a myth; even smarter-than-human  __AIs could never escape the tedium of an iterative research and development process__ .’
-
-Big question: Could AI’s escape the tedium of an iterative research and development process?
-
-Aaaaaaaand…
-
+**Bostrom**'s outlook on superintelligence is more .red[cautious and focused on the potential risks involved]. He warns about scenarios where a superintelligent AI could pursue goals that are harmful to humanity, either intentionally or inadvertently. Bostrom emphasizes the importance of AI *alignment* research and the development of robust safety mechanisms.
 
 ---
 
+# Bostrom's Superintelligence (continued)
 
-# From New Scientist 28 July 2022
+### What about governance?
 
-2022 ‘DeepMind's protein-folding AI cracks biology's biggest problem. Artificial intelligence firm DeepMind has transformed biology by predicting the structure of nearly all proteins known to science in just 18 months, a breakthrough that will speed drug development and revolutionise basic science.’
+**Kurzweil**'s vision of the Singularity implies a more passive approach to governance, with the belief that technological progress will naturally lead to beneficial outcomes for humanity.
 
----
+**Bostrom** advocates for proactive governance and research to ensure the safe development of AI. He co-founded the Future of Humanity Institute at the University of Oxford (financed also by big tech personalities but to be close soon), which focused on existential risk research, including the risks associated with advanced AI.
 
-https://www.newscientist.com/article/2330866-deepminds-protein-folding-ai-cracks-biologys-biggest-problem/
-
-
----
-
-
-# ChatGPT is launched… (narrow) AI crosses a threshold
-
-2022 November 30: ChatGPT is launched
-
-Me: ‘Hey GPT4, to what extent ought we to be concerned about the threat posed by AI?’
-
-GPT4:
-
-Superintelligent AI: This is the idea, popularized by figures like Nick Bostrom and Elon Musk, that an AI with goals misaligned with human values could be highly detrimental.
-
-Bias and Discrimination: Machine learning models can inherit and amplify the biases present in their training data.
-
-Economic Impacts: Automation, driven by AI, can result in job losses in various sectors, potentially leading to economic disparity.
-
-Weaponization: AI-powered autonomous weapons could change the nature of warfare, making conflicts more impersonal and possibly more frequent.
-
-Loss of Privacy: AI-driven surveillance systems could lead to unprecedented invasions of privacy. The rise of deepfakes, AI-generated fake videos, is another concern.
-
-Dependence: Over-reliance on AI systems might diminish human skills and our ability to make decisions without technological assistance.
-
-Opaque Decision-making: Many advanced AI models are "black boxes," making it difficult to understand and explain their decisions. This opacity can be problematic in sectors where accountability is crucial.
-
+.center[<img src = "https://upload.wikimedia.org/wikipedia/commons/0/00/Future_of_Humanity_Institute_logo.svg" width = '25%'></img>]
 
 ---
 
+# Geist’s skepticism in response to Bostrom
+
+> "The risks of self-improving intelligent machines are grossly exaggerated and ought not serve as a distraction from the existential risks we already face..."
+
+> Simply depriving AIs of information about the world is not adequate to render them safe, he [Bostrom] claims, as they might be able to accomplish such feats as solving extremely complex problems in physical science  __without the need to carry out real-world experiments__ . 
+
+> In a scenario borrowed from Yudkowsky,  __Bostrom posits that a superintelligence might “crack the protein folding problem”__  and then manipulate a gullible human into mixing mail-ordered synthesized proteins “in a specified environment” to create “a very primitive ‘wet’ nanosystem, which, ribosome-like, is capable of accepting external instructions; perhaps patterned acoustic vibrations delivered by a speaker attached to the beaker.” 
+
+---
+
+# Geist’s skepticism in response to Bostrom (continued)
+
+> It could then employ this system to bootstrap increasingly sophisticated nanotechnologies, and “at a pre-set time, nanofactories producing nerve gas or target-seeking mosquito-like robots might then burgeon forth simultaneously from every square meter of the globe (although more effective ways of killing could probably be devised by a machine with the technology research superpower).” This scenario doesn't just strain a reader’s credulity; it also implies a fanciful understanding of the nature of technological development in which “genius” can somehow substitute for hard work and countless intermediate failures. In the real world, the “lone genius inventor” is a myth; even smarter-than-human  __AIs could never escape the tedium of an iterative research and development process__ .’
+
+Question: Do you agree? Why might Geist be so dismissive? 
+
+---
+
+# AlphaFold
+
+In 2022, a deep learning system and "protein-folding AI", DeepMind's **AlphaFold** (grandchild or AlphaGO and Google's product)  
+
+> "cracks biology's biggest problem. Artificial intelligence firm DeepMind has transformed biology by predicting the structure of nearly all proteins known to science in just 18 months, a breakthrough that will speed drug development and revolutionise basic science."
+
+Question: Does it mean biological advances do not require real-word experimentations (and real-world experience)? 
+
+.footnote[https://www.newscientist.com/article/2330866-deepminds-protein-folding-ai-cracks-biologys-biggest-problem/]
+
+---
+
+# ChatGPT is launched… 
+
+2022 November 30: OpenAI's ChatGPT is launched.
+
+A Generative pre-trained transformers (GPT) using artificial neural networks to generate language from prompts.
+
+
+* ChatGPT is estimated to have 180 million users in 2024.
+
+* According to rumors, GPT-4 might have up to 1.76 trillion parameters.
+
+.content-box-yellow[
+
+Arguably, ChatGPT has pushed (narrow) AI through a threshold. For the first time a machine could convincingly simulate using and producing human language.
+
+]
+
+---
+
+# Advances and Products in Generative AI
+
+## Key Advances in Generative AI
+
+- **Natural Language Processing (NLP):** Improved understanding and generation of human language.
+- **Image Generation:** AI models like DALL-E (2021) and Stable Diffusion (2022) create detailed images from textual descriptions.
+- **Music Composition:** AI tools that can compose music in various styles, enhancing creative processes.
+- **Deepfakes:** Technology for creating realistic video and audio, raising ethical considerations.
+
+
+---
 
 # Early 2023: ‘Pause Giant AI Experiments: An Open Letter’
+
+ChatGPT has caused many to freak out. 
 
 2023 (March 22) Future of Life Institute
 
 Letter signed by many significant figures in AI:
 
-‘AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research and acknowledged by top AI labs.[2] As stated in the widely-endorsed [Asilomar AI Principles](https://futureoflife.org/open-letter/ai-principles/),  _Advanced AI could represent a profound change in the history of life on Earth, and should be planned for and managed with commensurate care and resources_ .’
+> "AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research and acknowledged by top AI labs. As stated in the widely-endorsed [Asilomar AI Principles](https://futureoflife.org/open-letter/ai-principles/), 
+
+> _Advanced AI could represent a profound change in the history of life on Earth, and should be planned for and managed with commensurate care and resources_ ."
+
+.footnote[https://futureoflife.org/open-letter/pause-giant-ai-experiments/]
 
 ---
 
-https://futureoflife.org/open-letter/pause-giant-ai-experiments/
+### We don't need to image future risks from the massive adoption of AI systems. 
 
+* Many of these risks are very much **present risks**. 
+
+* We have been experiencing many of these risks since the introduction of social media for example. 
+
+.center[<img src = '../img/flooded-house.webp' width = "40%"></img>]
 
 ---
 
+# Contemporary AI systems are now becoming human-competitive at general tasks
 
-# And this…
+We must ask ourselves:
 
-Contemporary AI systems are now becoming human-competitive at general tasks, and we must ask ourselves: [1]  _Should_  we let machines flood our information channels with propaganda and untruth? [2]  _Should_  we automate away all the jobs, including the fulfilling ones? [3]  _Should_  we develop nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us? [4]  _Should_  we risk loss of control of our civilization? [5] Such decisions must not be delegated to unelected tech leaders.  __Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable.__
+1. _Should_ we let machines flood our information channels with propaganda and untruth?
+2. _Should_ we let inject unpredictable and invisible biases into our decision systems (e.g., justice, insurance)?
+3. _Should_ we allow for invisible mass surveillance by automated systems?
+4. _Should_ we automate away all the jobs, including the fulfilling ones?
+5. _Should_ we delegate critical decision to unelected tech leaders 
+
+__Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable.__
 
 Question: Consider the above claims (1-5).
 
 Question: What if anything should be done about AI regulation?
 
-
 ---
-
 
 # The call for establishing shared safety protocols + hitting ‘pause’
 
-‘AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts.’
+"AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts."
 
-And this important claim: ‘Society has hit pause on other technologies with potentially catastrophic effects on society.’
+And this important claim: "Society has hit pause on other technologies with potentially catastrophic effects on society."
 
 Question: What technologies has society hit ‘pause’ on? What technologies has society not hit ‘pause’ on? What accounts for the differences?
 
 
 ---
-
 
 # Since March 2023
 
@@ -570,24 +590,21 @@ Question: What do you think has happened with AI research since?
 
 Answer:
 
-From  _Wired _ (September 28 2023) _:_
+From  _Wired _ (September 28 2023) 
 
-‘As you may have noticed, the letter did not result in a pause in AI development, or even a slow down to a more measured pace. Companies have instead accelerated their efforts to build more advanced AI.
+> As you may have noticed, the letter did not result in a pause in AI development, or even a slow down to a more measured pace. Companies have instead accelerated their efforts to build more advanced AI.
 
-Elon Musk, one of the most prominent signatories, didn’t wait long to ignore his own call for a slowdown. In July he announced xAI, a new company he said would seek to go beyond existing AI and compete with OpenAI, Google, and Microsoft. And many Google employees who also signed the open letter have stuck with their company as it prepares to release an AI model called Gemini, which boasts broader capabilities than OpenAI’s GPT-4.’
+Elon Musk, one of the most prominent signatories, didn’t wait long to ignore his own call for a slowdown. In July he announced xAI, a new company he said would seek to go beyond existing AI and compete with OpenAI, Google, and Microsoft. And many Google employees who also signed the open letter have stuck with their company as it prepares to release an AI model called Gemini, which boasts broader capabilities than OpenAI’s GPT-4.’
 
 Question: Why can’t we stop? What ought to be done?
 
----
-
-https://www.wired.com/story/fast-forward-elon-musk-letter-pause-ai-development/
-
+.footnote[https://www.wired.com/story/fast-forward-elon-musk-letter-pause-ai-development/]
 
 ---
 
+class: segue-red
 
-Part 1.5: The alignment and control problems
-
+# Problem 1: The alignment and control problems
 
 ---
 
@@ -602,55 +619,64 @@ Question: How will we be able to ensure that the goals of AI will ‘align’ wi
 
 Question: How might a lack of alignment – even a small lack of alignment – cause big problems?
 
+---
+
+## The control problem in more detail, drawing on Torres 2019: ‘The possibility and risks of artificial general intelligence’
+
+* The **orthogonality thesis**: This is a component of the ‘paperclip problem’: AGI will continue with some ‘silly’ goal.
+
+.center[<img src = '../img/paperclip-factory.webp' width = '15%'></img>]
+
+* The **instrumental convergence thesis**: This is another component of the ‘paperclip problem’: AGI will do whatever it can to pursue its original goal (including wiping out humans).
+
+* The **complexity of value thesis**: This refers to the challenge of programming in human values. Human values are complex.
 
 ---
 
+# Goals and alignment
 
-# The control problem in more detail, drawing on Torres 2019: ‘The possibility and risks of artificial general intelligence’
+.content-box-red[
 
-The ‘orthogonality thesis’
+.center[We are back to the Symbolic vs Subsybolic problem.
 
-This is a component of the ‘paperclip problem’: AGI will continue with some ‘silly’ goal.
+]]
 
-The instrumental convergence thesis
+- Deep learning systems are not rule-based. 
 
-This is another component of the ‘paperclip problem’: AGI will do whatever it can to pursue its original goal (including wiping out humans).
+- We can't ensure that the rule books of these systems adhere to our values - because there's no rule book! 
 
-The complexity of value thesis
+.center[<img src = 'https://static01.nyt.com/images/2024/02/22/business/22google-gemini/22google-gemini-superJumbo-v2.jpg?quality=75&auto=webp' width = '25%'></img>]
 
-This refers to the challenge of programming in human values. Human values are complex.
-
+.footnote[Images generated by Google’s Gemini chatbot with the prompt “Generate an image of a 1943 German Solidier. https://www.nytimes.com/2024/02/22/technology/google-gemini-german-uniforms.html]
 
 ---
 
+## But it's even more complicated...
 
-The perplexity of value thesis
+### The perplexity of value thesis
 
-The issue here is that we don’t exactly know what human values are. General question: Again: What will motivate AGI (how will AGI derive its goals)?
+The issue here is that **we don’t exactly know what human values are**. General question: Again: What will motivate AGI (how will AGI derive its goals)?
 
-The fragility of value thesis
+### The fragility of value thesis
 
 Question: Might it be the case that one small error in programming human values causes serious divergence?
 
 
 ---
 
+class: segue-red
 
-Part 2: Degradation of human experience
-
-
----
-
-
-# Remember Ray Kurzweil
-
-evolution moves towards ‘greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love’.
+# Problem 2: Degradation of human experience
 
 
 ---
 
 
-# A different kind of threat
+## Remember Ray Kurzweil
+
+Evolution moves towards ‘greater complexity, greater elegance, greater knowledge, greater intelligence, greater beauty, greater creativity, and greater levels of subtle attributes such as love’.
+
+### A different kind of threat
 
 Question: Again: What is the best way for humans to live?
 
@@ -663,16 +689,29 @@ Question: Is the point here that what must be secured is our freedom? (Interesti
 
 ---
 
-
 # The real threat: degradation of human experience
 
-Nowak et al.: ‘The real danger of AI lies not in sudden apocalypse, but in  __the gradual degradation and disappearance of what make human experience and existence meaningful__ .’
+Nowak et al.: 
 
-And later: ‘Instead, humans may gradually become  __passive__  elements of an emerging global socio-technical system — a system composed of machines, algorithms, sensors and actuators, AI programs, and humans interacting in the globally present Internet, an Internet that is ever-present due to mobile technologies and ambient intelligence.’
+> The real danger of AI lies not in sudden apocalypse, but in  __the gradual degradation and disappearance of what make human experience and existence meaningful__ ."
 
-And later: ‘The essence of this question is:  __what are the real chances for humans to break-out of the choices dictated by the system of which they are an element__ ? What are their chances to retain the capacity for independent, critical thinking? Can they retain emotions and feelings dictated by their internal processes, rather than those dictated by information tailored to manipulate their emotions, or by autonomous decision-making?’
+> "Instead, humans may gradually become  __passive__  elements of an emerging global socio-technical system — a system composed of machines, algorithms, sensors and actuators, AI programs, and humans interacting in the globally present Internet, an Internet that is ever-present due to mobile technologies and ambient intelligence."
 
-And later: ‘Another dimension of this question is “ __to what degree do interactions and contacts between individuals retain a human character, characterized by the intrinsic value of the inner experiences of other humans__ ?”
+---
+
+# The real threat: degradation of human experience (continued)
+
+And later:
+
+> "The essence of this question is:  __what are the real chances for humans to break-out of the choices dictated by the system of which they are an element__ ? What are their chances to retain the capacity for independent, critical thinking? Can they retain emotions and feelings dictated by their internal processes, rather than those dictated by information tailored to manipulate their emotions, or by autonomous decision-making?"
+
+---
+
+# The real threat: degradation of human experience (continued)
+
+And later: 
+
+> Another dimension of this question is “ __to what degree do interactions and contacts between individuals retain a human character, characterized by the intrinsic value of the inner experiences of other humans__ ?"
 
 Question: Is it possible that we are subtly losing our humanity to opaque global forces? Does this humanity need to be  _secured_ ?
 
@@ -680,21 +719,19 @@ Question: More broadly, do you think that life is becoming more or less meaningf
 
 Question: Does some of this also just sound like Marxism?
 
-
 ---
-
 
 # Degradation of cognitive capacities
 
-‘The rapid development of AI that  __replaces rather than augments __ human intelligence can also dramatically diminish the capacity for cognition of the human race. In this scenario, human information processing is delegated to AI, and humans just get answers. They don’t gain understanding of the knowledge and processing rules that led to the solutions.’
+> "The rapid development of AI that  __replaces rather than augments __ human intelligence can also dramatically diminish the capacity for cognition of the human race. In this scenario, human information processing is delegated to AI, and humans just get answers. They don’t gain understanding of the knowledge and processing rules that led to the solutions.’
 
 Question: Is this degradation of human capabilities another thing that needs to be  __secured__  against?
 
-
 ---
 
+class: segue-red
 
-Part 3: AI Arms Race
+# Problem 3: AI Arms Race
 
 
 ---
@@ -702,31 +739,100 @@ Part 3: AI Arms Race
 
 # Traditional security concerns: The ‘missile gap’ in AI
 
-Henshall: ‘The reasons that a pause in AI won’t happen are multifold—and are about more than just the research itself. Critics of the proposed pause argue that regulating or restricting AI  __would help China pull ahead in AI development__ , causing the United States to lose its military and economic edge.’
+Henshall: 
+
+> "The reasons that a pause in AI won’t happen are multifold—and are about more than just the research itself. Critics of the proposed pause argue that regulating or restricting AI  __would help China pull ahead in AI development__ , causing the United States to lose its military and economic edge."
+
+.content-box-yellow[Remember: It's not only about the algorithms - it is about finite and hard to accumulate resources: computing power and data.]
 
 Question: Is AI destined to be (if it isn’t already) just another arms race?
 
+- Recent developments: discussions about TikTok's ban in the US and limits to trade chipmaking tech.
 
 ---
 
-
 # AI and hegemony: the ‘singleton’
 
-Geist referring to Bostrom: ‘According to Superintelligence, the lucky beneficiary of an intelligence explosion would probably gain a “decisive strategic advantage” which it could then employ to form a “singleton,” defined as “a world order in which there is at the global level a single decision-making agency.”’
+Geist referring to Bostrom: 
+
+> "According to Superintelligence, the lucky beneficiary of an intelligence explosion would probably gain a “decisive strategic advantage” which it could then employ to form a 'singleton,' defined as 'a world order in which there is at the global level a single decision-making agency'."S
 
 Question: Might AI merely continue the traditional pursuit of hegemony (empire)? Or might it fundamentally change the world order?
 
 Question: Will an AI intelligence explosion align with traditional state boundaries? i.e. Will or even can it be contained by the state?
 
+Question: Will corporations accumulate more power than states and escape their controls? (i.e., an AI-powered social media giant such as Meta...)
+
 
 ---
 
-
 # The real threat of AI: amplifying human stupidity?
 
-Geist: ‘But if artificial intelligence might not be tantamount to “summoning the demon” (as Elon Musk colourfully described it), AI-enhanced technologies might still be extremely dangerous due to their potential for  __amplifying human stupidity__ . The AIs of the foreseeable future need not think or create to sow mass unemployment, or enable new weapons technologies that undermine precarious strategic balances. Nor does artificial intelligence need to be smarter than humans to threaten our survival—all it needs to do is make the technologies behind familiar 20th-century existential threats faster, cheaper, and more deadly.’
+Geist: 
+
+> "But if artificial intelligence might not be tantamount to 'summoning the demon' (as Elon Musk colourfully described it), AI-enhanced technologies might still be extremely dangerous due to their potential for  __amplifying human stupidity__ . The AIs of the foreseeable future need not think or create to sow mass unemployment, or enable new weapons technologies that undermine precarious strategic balances. Nor does artificial intelligence need to be smarter than humans to threaten our survival—all it needs to do is make the technologies behind familiar 20th-century existential threats faster, cheaper, and more deadly."
 
 Question: Is this the real threat? i.e. AI will amplify human stupidity?
 
+---
+
+class: segue-red
+
+# Future of Politics and Artificial Intelligence
+
+---
+
+## Future of Politics and Artificial Intelligence: The Choice
+
+Human Intelligence (HI) vs Artificial Intelligence (AI) vs Artificial Agency (AA) (i.e., State but also corporations)
+
+.center[<img src = '../img/the-handover.webp' width = "25%"></img>]
+
+.content-box-green[
+
+* HI + AI: better answers, worse accountability, elitism
+
+* AA + AI: better answers, worse accountability, inhumanity
+
+* AA + HI: worse answers, better accountability, more human
+
+]
+
+.footnote[Runciman, D. (2023). The Handover. Profile Books Limited.]
+
+---
+
+## Choices Facing Us
+
+1. **Enhance Intelligence**: Focus on making states and corporations smarter.
+   - **Pros**: Addresses the need for intelligent decision-making in high-stake scenarios.
+   - **Cons**: Risks losing human control as AI could outperform humans in many tasks.
+
+2. **Preserve Human Agency**:
+   - **Pros**: Maintains the distinction and benefits of human decision-making in governance.
+   - **Cons**: Human errors could lead to catastrophic outcomes.
+
+3. **Empower AI with Agency**:
+   - **Pros**: AI held accountable could make more responsible decisions.
+   - **Cons**: Risks reducing human responsibility and complicating enforcement by the state.
+   
+.footnote[Runciman, D. (2023). The Handover. Profile Books Limited.]
+
+---
+
+# Future of Politics and Artificial Intelligence: The Choice
+
+- **Intelligence vs. Accountability**: Increasing reliance on AI could lead to more accurate decisions but might undermine accountability.
+- **Human vs. Machine**: Maintaining human control is safer but potentially less effective.
+- **Role of AI**: Expanding AI's role in governance poses challenges in terms of control and accountability.
+
+### Conclusion:
+Deciding the future of politics will involve balancing the enhancement of intelligence with the preservation of human agency and accountability.
+
+.content-box-green[
+But: Will we accept potentially worse decisions if this means preserving our agency and ultimately our humanity?
+]
+
+.footnote[Runciman, D. (2023). The Handover. Profile Books Limited.]
 
 
